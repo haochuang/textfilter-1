@@ -2,14 +2,17 @@
 很短但是觉得挺有用的东东
 所以单独立了个项目备份一下
 
-USAGE:
-
+* USAGE:
+```
     >>> f = DFAFilter()
     >>> f.add("sexy")
     >>> f.filter("hello sexy baby")
     hello **** baby
+```
 
 其他敏感词相关：
+-----------
+
 * [sensitive-words](https://github.com/haochuang/sensitive-words)
 
 * [textfilter](https://github.com/haochuang/textfilter-1/edit/master/keywords2.md)
